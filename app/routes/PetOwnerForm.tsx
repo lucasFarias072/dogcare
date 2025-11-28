@@ -48,7 +48,7 @@ const PetOwnerForm = (): React.ReactElement => {
               <input 
                 className="ordinary-input" type="text" placeholder="Seu nome de tutor" 
                 value={name}
-                onChange={(e) => setName(e.target.value)} required
+                onChange={(e) => setName(e.target.value)} autoFocus required
               />
 
               <input 
@@ -59,7 +59,7 @@ const PetOwnerForm = (): React.ReactElement => {
               />
 
               <input 
-                className="ordinary-input" type="password" placeholder="Senha" 
+                className="ordinary-input" type="password" placeholder="Sua senha" 
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required

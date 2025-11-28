@@ -4,3 +4,7 @@
     min-height: 100vh;
 }
 
+.mt-sm {
+    margin-top: .5rem; 
+}
+

@@ -1,0 +1,14 @@
+
+
+#login-btn {
+  background: #251e18;
+  border: #5e4938 solid 1px;
+  border-radius: 2rem;
+  cursor: pointer;
+  padding: .5rem 2.5rem;
+  transition: ease-in .4s;
+}
+
+#login-btn:hover {
+  box-shadow: 0 0 1rem #251e18;
+}

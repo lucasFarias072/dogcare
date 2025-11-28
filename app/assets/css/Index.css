@@ -6,7 +6,7 @@ body {
 
 #already-registered {
     color: #251e18;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
 }
 
 #login-indicator {
@@ -19,7 +19,7 @@ body {
     border: #5e4938 solid 1px;
     border-radius: .2rem;
     cursor: pointer;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding: .5rem 2.5rem;
     transition: ease-in .4s;
 }

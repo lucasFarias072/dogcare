@@ -2,7 +2,9 @@
 
 import '../assets/css/Adjusts.css'
 import '../assets/css/Flex.css'
+import '../assets/css/General.css'
 import '../assets/css/PetOwnerPanel.css'
+import '../assets/css/PetPostForm.css'
 
 // Adicionado
 import { useAuth } from '../AuthContext'
@@ -10,7 +12,7 @@ import { ProtectedRoute } from '../ProtectedRoute'
 import { supabase } from '../supabaseClient'
 import type { Pet, Profile } from '../supabaseClient'
 
-import PetPostForm from './PetPostForm';
+// import PetPostForm from './PetPostForm';
 
 // Adicionado: useEffect
 import { useState, useEffect } from 'react';

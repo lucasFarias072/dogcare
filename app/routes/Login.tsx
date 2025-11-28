@@ -4,6 +4,7 @@ import '../assets/css/Adjusts.css'
 import "../assets/css/Flex.css"
 import '../assets/css/General.css'
 import '../assets/css/LoginForm.css'
+import '../assets/css/Login.css'
 
 // Adicionado (p/ React)
 import { useState } from 'react'
@@ -11,7 +12,7 @@ import { useAuth } from '../AuthContext'
 // Adicionado: useNavigate
 import {useNavigate, Link} from 'react-router'
 
-import ReturnBtn from './ReturnBtn'
+// import ReturnBtn from './ReturnBtn'
 
 // Retirado
 /*
@@ -60,21 +61,21 @@ const Login = (): React.ReactElement => {
               <div className="flex column going-center gap-md">
 
                 <input 
-                  className="ordinary-input-b" type="email" placeholder="ex.: seu_email@gmail.com" required
+                  className="ordinary-input-b" type="email" placeholder="ex.: seu_email@gmail.com" autoFocus required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   disabled={isSubmitting}
                 />
                 
                 <input 
-                  className="ordinary-input-b" type="password" placeholder="Senha" required
+                  className="ordinary-input-b" type="password" placeholder="Sua senha" required
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   disabled={isSubmitting}
                 />
 
                 {/* Substituído por isso */}
-                <button id="post-new-pet-owner-btn" type="submit"
+                <button id="login-btn" type="submit"
                   disabled={isSubmitting}
                   style={{ opacity: isSubmitting ? 0.6 : 1 }}
                 > {isSubmitting ? 'entrando...' : 'entrar'}
@@ -84,9 +85,10 @@ const Login = (): React.ReactElement => {
             </form>
             
             {/* Novo */}
-            <div className='flex row going-center gap-lg'>
-              <p>Não tem conta?</p>
-              <Link to="/" style={{ color: '#4a90e2', textDecoration: 'underline' }}>Cadastre-se</Link>
+            <div className='flex row going-center gap-lg mt-sm'>
+              <p style={{color: '#a15245'}}>🔴 Não tem conta?</p>
+              <p style={{ textShadow: '0 0 1rem #a15245', fontSize: '2rem' }}>➜</p>
+              <Link to="/" style={{ background: '#a15245', border: '#a15245 solid 1px', borderRadius: '.3rem', color: '#F2F2F2', padding: '.3rem' }}>🌟 Cadastre-se</Link>
             </div>
 
         </div>
