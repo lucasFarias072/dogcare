@@ -1,0 +1,14 @@
+
+
+#pet-post-btn {
+    background: #fe826e;
+    border-radius: .2rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    transition: linear .5s;
+}
+
+#pet-post-btn:hover {
+    box-shadow: 0 0 5rem #fe826e; 
+    color: #251e18;
+}

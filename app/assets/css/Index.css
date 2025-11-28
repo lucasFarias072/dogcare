@@ -1,0 +1,35 @@
+
+
+body {
+    background: linear-gradient(45deg, #9e7c5f 50%, #5e4938 50.1%)
+}
+
+#already-registered {
+    color: #251e18;
+    font-size: 1.7rem;
+}
+
+#login-indicator {
+    font-size: 2rem;
+    text-shadow: 0 0 1rem #251e18;
+}
+
+#post-login-btn {
+    background: linear-gradient(120deg, #5e4938 50%, #251e18 50.1%);
+    border: #5e4938 solid 1px;
+    border-radius: .2rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: .5rem 2.5rem;
+    transition: ease-in .4s;
+}
+
+#post-login-btn:hover {
+  box-shadow: 0 0 1rem #251e18;
+}
+
+#welcome-title {
+    color: #251e18;
+    font-size: 3rem;
+    text-shadow: .3rem .3rem 1rem #251e18;
+}

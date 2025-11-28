@@ -1,0 +1,33 @@
+
+
+#pet-owner-form-area {
+    background: #e1b58e;
+    border: transparent solid 1px;
+    border-radius: .5rem;
+    box-shadow: 0 0 .2rem #251e18;
+    padding: .5rem 2rem;
+    transition: linear .2s;
+}
+
+#pet-owner-form-area:hover {
+  border: #251e18 solid 1px;
+  box-shadow: 0 0 1.5rem #251e18;
+}
+
+#post-pet-owner-title {
+  color: #251e18;
+  font-size: 2.2rem;
+}
+
+#post-new-pet-owner-btn {
+  background: #251e18;
+  border: #5e4938 solid 1px;
+  border-radius: 2rem;
+  cursor: pointer;
+  padding: .5rem 2.5rem;
+  transition: ease-in .4s;
+}
+
+#post-new-pet-owner-btn:hover {
+  box-shadow: 0 0 1rem #251e18;
+}

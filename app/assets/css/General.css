@@ -1,0 +1,35 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: consolas;
+}
+
+.ordinary-input {
+    background: #5e4938;
+    border-radius: .4rem;
+    outline: none;
+    padding: .6rem;
+}
+
+.ordinary-input-b {
+    background: #5e4938;
+    border: #251e18 solid 1px;
+    border-radius: .4rem;
+    outline: none;
+    padding: .6rem;
+}
+
+.ordinary-input-c {
+    background: #251e18;
+    border: #a15245 solid 1px;
+    border-radius: .4rem;
+    color: #fe826e;
+    outline: none;
+    padding: .6rem;
+}

@@ -1,0 +1,97 @@
+
+
+#container {
+    background: linear-gradient(90deg, #251e18 50%, #fe826e 50.1%);
+}
+
+#user-area {
+    color: #F2F2F2;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#labels-area {
+    background: linear-gradient(90deg, #fe826e 50%, #251e18 50.1%);
+    border-radius: .5rem;
+    color: #F2F2F2;
+    
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.pet-card {
+    background: #fe826e;
+    border-radius: .5rem;
+    box-shadow: 0 0 1rem #251e18;
+    padding: 1rem 3rem;
+}
+
+#pet-card .pet-name {
+    margin-top: 1rem;
+}
+
+#pet-logo, #pet-paws-logo {
+    text-shadow: 0 0 .5rem #fe826e;
+    font-size: 3rem;
+}
+
+#pet-logo {
+    text-shadow: 0 0 .5rem #fe826e;
+}
+
+#pet-paws-logo {
+    text-shadow: 0 0 .5rem #251e18;
+}
+
+.pet-name {
+    background: #251e18;
+    border-radius: .3rem;
+    padding: .5rem;
+}
+
+.pet-breed {
+    background: #5e4938;
+    border-radius: .3rem;
+    padding: .5rem;
+}
+
+.pet-register-date {
+    background: #9e7c5f;
+    border-radius: .3rem;
+    padding: .5rem;
+}
+
+.pet-birth {
+    background: #a15245;
+    border-radius: .3rem;
+    padding: .5rem;
+}
+
+#add-new-pet-form-btn {
+    background: linear-gradient(90deg, #251e18 50%, #fe826e 50.1%);
+    border: #a15245 solid 1px;
+    border-radius: 90%;
+    cursor: pointer;
+    font-size: 2.2rem;
+    padding: .5rem 2rem;
+    transition: ease-out .7s;
+}
+
+#add-new-pet-form-btn:hover {
+    box-shadow: 0 0 1rem #a15245;
+    text-shadow: 0 0 1rem #a15245;
+}
+
+#user-info {
+    background: #fff999;
+    border-radius: .5rem;
+    box-shadow: 0 0 1rem #fff999;
+    color: black;
+    padding: .5rem;
+}
+
+#user-session {
+    position: fixed;
+    top: 7px;
+    left: 10px;
+}

@@ -1,0 +1,25 @@
+.DS_Store
+.env
+/node_modules/
+
+# React Router
+/.react-router/
+/build/
+
+# Builds
+dist/
+
+# Variáveis de ambiente (IMPORTANTE!)
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+Thumbs.db

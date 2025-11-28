@@ -1,0 +1,35 @@
+
+
+.flex {
+  display: flex;
+}
+.column {
+  flex-flow: column wrap;
+}
+.row {
+  flex-flow: row wrap;
+}
+.going-left {
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+.going-center {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.going-right {
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: right;
+}
+.gap-sm {
+  gap: .5rem;
+}
+.gap-md {
+  gap: 1rem;
+}
+.gap-lg {
+  gap: 1.5rem;
+}
